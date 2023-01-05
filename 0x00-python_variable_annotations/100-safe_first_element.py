@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """Task 100 module"""
-from typing import Any
+from typing import Any, Sequence, Union
 
 
-def safe_first_element(lst: list[Any]) -> Any:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """Return the first element of lst if it is not empty, else return None.
 
     Args:
-        lst (list[Any]): The list to get the first element of.
+        lst (Sequence[Any]): The sequence to get the first element of.
 
     Returns:
-        Any: The first element of lst, or None if lst is empty.
+        Union[Any, None]: The first element of lst, or None if lst is empty.
     """
     if lst:
         return lst[0]
