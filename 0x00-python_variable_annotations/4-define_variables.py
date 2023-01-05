@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Task 4 module"""
+
 
 # An integer with a value of 1
 a: int = 1
