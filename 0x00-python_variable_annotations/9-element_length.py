@@ -10,7 +10,6 @@ def element_length(lst: List[str]) -> List[Tuple[str, int]]:
         lst (List[str]): The list of elements to get the lengths of.
 
     Returns:
-        List[Tuple[str, int]]: A list of tuples containing
-        each element of lst and its length.
+        List[Tuple[str, int]]: A list of tuples containing each element of lst and its length.
     """
     return [(i, len(i)) for i in lst]
