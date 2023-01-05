@@ -2,7 +2,8 @@
 
 a = __import__('4-define_variables').a
 pi = __import__('4-define_variables').pi
-i_understand_annotations = __import__('4-define_variables').i_understand_annotations
+i_understand_annotations = __import__(
+        '4-define_variables').i_understand_annotations
 school = __import__('4-define_variables').school
 
 print("a is a {} with a value of {}".format(type(a), a))
