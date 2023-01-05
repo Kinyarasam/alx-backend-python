@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
+"""Task 100 module"""
 from typing import Any
+
 
 def safe_first_element(lst: list[Any]) -> Any:
     """Return the first element of lst if it is not empty, else return None.
@@ -14,4 +16,3 @@ def safe_first_element(lst: list[Any]) -> Any:
         return lst[0]
     else:
         return None
-
